@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 
 }
 
@@ -10,11 +10,11 @@
 
 .primary-button{
     color: white;
-    background-color: rgba(255, 55, 0, 0.764);
+    background-color: rgb(251, 78, 107);
     padding: 10px;
     font-size: 20px;
-    text-align: center;
     margin: 30px;
+    border: none;
 }
 
 /* banner styles */
@@ -47,3 +47,64 @@
     
 }
 
+/* amount section styles */
+.amount-section{
+    text-align: center;
+}
+
+.amount .title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.amount .description{
+    color: rgba(186, 181, 181, 0.871);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.amount-taka{
+    list-style-type: none;
+    display: flex;
+    color: rgba(20, 18, 18, 0.432);
+    font-size: 30px;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.taka-200{
+    border: 2px solid orangered;
+    color: orangered;
+    font-weight: bold;
+    padding: 30px 25px;
+    background-color: rgb(255, 247, 236);
+    
+}
+
+.other-amount{
+    color: rgba(222, 215, 215, 0.985);
+    font-weight: 100px ;
+    padding-bottom: 10px;
+}
+
+.line-break{
+    color: aliceblue;
+    /* width: 50px; */
+    align-items: center;
+    text-align: center;
+}
+hr{
+    border-top: 2px solid rgb(231, 222, 222);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
