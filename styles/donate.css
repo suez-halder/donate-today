@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header{
+    text-align: center;
+}
+
+.primary-button{
+    color: white;
+    background-color: rgba(255, 55, 0, 0.764);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+/* banner styles */
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/donation6.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: overlay ;
+    background-color: gray;
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.135);
+    
+    
+
+}
+
+.banner .title{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+}
+
+.banner .description{
+    color: rgba(216, 205, 205, 0.871);
+    font-size: 18px;
+    
+}
+
